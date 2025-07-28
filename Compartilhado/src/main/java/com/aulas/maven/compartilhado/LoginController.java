@@ -15,6 +15,10 @@ public class LoginController {
         return retorno;
     }
 
+    public void metodoteste() {
+
+    }
+
 
 
 }

@@ -10,6 +10,8 @@ public class DadosUsuario {
 
     private String senha;
 
+    private boolean ativo;
+
     public void loadLogin() {
         this.usuario = "onlineobject";
         this.senha = "12345678";
@@ -49,6 +51,14 @@ public class DadosUsuario {
 
     public void setSenha(String senha) {
         this.senha = senha;
+    }
+
+    public boolean isAtivo() {
+        return ativo;
+    }
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
     }
 
     protected void assignarPermissoes() {
