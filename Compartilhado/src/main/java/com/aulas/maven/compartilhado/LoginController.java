@@ -16,6 +16,11 @@ public class LoginController {
     }
 
     public void metodoteste() {
+        int teste = 0;
+        for ( teste = 0; teste < 10; teste++) {
+            System.out.println(String.format("Mensagem %s", teste));
+        }
+        System.out.println("Mensagem finalizada");
         String message = "hello world";
         System.out.println(message);
     }
