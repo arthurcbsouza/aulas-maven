@@ -16,7 +16,8 @@ public class LoginController {
     }
 
     public void metodoteste() {
-
+        String message = "hello world";
+        System.out.println(message);
     }
 
 
